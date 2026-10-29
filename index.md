@@ -4,7 +4,7 @@ title: Muscle Munch Privacy Policy
 
 # Muscle Munch Privacy Policy
 
-*Last updated: October 23, 2026*
+*Last updated: October 29, 2026*
 
 Muscle Munch is a workout and nutrition tracker, currently in beta through Apple's TestFlight. This policy explains what the app collects, where it's stored, and the choices you have. It's written to match how the app actually works.
 
@@ -73,7 +73,17 @@ With your permission, Muscle Munch:
 - **reads** your weight, height, birthday and sex, to fill in your profile and calorie targets and to bring in weigh-ins from your scale;
 - **saves** your weigh-ins and the calories and macros of meals you log.
 
-Health data is never sent to our servers, never shown to friends, and never used for advertising. If you've turned on iCloud sync for Health, Apple syncs it.
+**Apple Watch workout matching (optional):** if you turn on Match Apple Watch Workouts in Settings › Apple Health, Muscle Munch asks separately to **read** your workouts, heart rate and active calories. It then:
+- adds the average and highest heart rate and the active calories from a matching Apple Watch workout to the workout you logged (your exercises, sets and times never change);
+- adds your other Apple Watch workouts to your workout history in the app.
+
+It never writes workouts, heart rate or active calories to Apple Health.
+
+**Health records and what Muscle Munch keeps:**
+- Your records in Apple Health stay in Apple Health. Muscle Munch changes or deletes only the Health records it saved itself (for example, when you delete a meal it logged).
+- Some values that come from Health are saved in Muscle Munch on your iPhone: the height, birthday, sex and weight in your profile, the weigh-ins brought in from your scale, and the heart rate, active calories and workout details added from Apple Watch workouts.
+
+Apple Health records, and these values from Health, are never sent to our servers, never shown to friends, and never used for advertising. If you've turned on iCloud sync for Health, Apple syncs it.
 
 ## 5. Food lookups
 Food searches and barcodes you scan are sent to:
