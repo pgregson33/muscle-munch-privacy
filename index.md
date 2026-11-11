@@ -4,14 +4,14 @@ title: Muscle Munch Privacy Policy
 
 # Muscle Munch Privacy Policy
 
-*Last updated: October 29, 2026*
+*Last updated: November 6, 2026*
 
 Muscle Munch is a workout and nutrition tracker, currently in beta through Apple's TestFlight. This policy explains what the app collects, where it's stored, and the choices you have. It's written to match how the app actually works.
 
 **The short version:**
-- Your workouts, food diary, recipes and weigh-ins are stored **on your iPhone**. If you turn on the optional **Cloud Backup**, a copy is also kept with our backend provider so you can restore it. Without a backup, **deleting the app can permanently erase them**, and signing back in does not bring them back.
+- Your workouts, food diary, recipes and weigh-ins are stored **on your iPhone**. If you're signed in, **Cloud Backup** is on by default and a copy is also kept with our backend provider so you can restore it; you can turn it off. A guest's history stays on the iPhone only. Without a backup, **deleting the app can permanently erase them**, and signing back in does not bring them back.
 - If you create an account, your profile and the **summaries of workouts you finish** are stored with our backend provider so friends can see them.
-- Your food diary is uploaded only as part of an optional Cloud Backup. Apple Health records are **never** uploaded; some values that come from Health can be included in an optional backup (section 4).
+- Your food diary is uploaded only as part of Cloud Backup, which is on by default for signed-in accounts and can be turned off. Apple Health records are **never** uploaded; some values that come from Health can be included in a backup (section 4).
 - There are no ads, no tracking, no analytics tools and no selling of data.
 
 ## 1. Data stored on your iPhone
@@ -23,7 +23,7 @@ The following are kept in the app's storage on your iPhone:
 
 Photos you take to scan barcodes, recipes, workout plans or meals are read on your iPhone. The optional AI meal recognition and workout-plan reading use Apple's on-device model, so the photos aren't sent to us or to an AI service. Food names found this way may be looked up in the food databases described in section 5.
 
-This data is included in your iPhone's own iCloud or computer backup if you have those turned on. Muscle Munch backs it up to our servers **only if you turn on Cloud Backup** (section 4A).
+This data is included in your iPhone's own iCloud or computer backup if you have those turned on. Muscle Munch backs it up to our servers **only while you're signed in and Cloud Backup is on** (on by default, section 4A).
 - **Deleting the app deletes this data from your iPhone.** Without a cloud backup, it may be lost permanently.
 - **Signing back in does not bring it back by itself.** With a cloud backup, you can restore it from Settings › Cloud Backup (section 4A). Without one, the only way to get it back is to restore your whole iPhone from an iCloud or computer backup made before you deleted the app.
 
@@ -82,10 +82,10 @@ It never writes workouts, heart rate or active calories to Apple Health.
 - Your records in Apple Health stay in Apple Health. Muscle Munch changes or deletes only the Health records it saved itself (for example, when you delete a meal it logged).
 - Some values that come from Health are saved in Muscle Munch on your iPhone: the height, birthday, sex and weight in your profile, the weigh-ins brought in from your scale, and the heart rate, active calories and workout details added from Apple Watch workouts.
 
-Apple Health records are never sent to our servers, never shown to friends, and never used for advertising. The values from Health that Muscle Munch saves are never shown to friends or used for advertising either. They're sent to our servers only if you turn on Cloud Backup, as part of your private backup (section 4A); weigh-ins brought in from Apple Health are left out of backups. If you've turned on iCloud sync for Health, Apple syncs it.
+Apple Health records are never sent to our servers, never shown to friends, and never used for advertising. The values from Health that Muscle Munch saves are never shown to friends or used for advertising either. They're sent to our servers only as part of your private Cloud Backup, while it's on (section 4A); weigh-ins brought in from Apple Health are left out of backups. If you've turned on iCloud sync for Health, Apple syncs it.
 
-## 4A. Optional Cloud Backup
-Cloud Backup is **off unless you turn it on** in Settings › Cloud Backup, after reading what it does. You need to be signed in.
+## 4A. Cloud Backup
+Cloud Backup is **on by default for signed-in accounts** and off for guests. The first time, the app explains it and nothing is uploaded until you tap OK; you can choose Turn Off instead, and turn it off any time in Settings › Cloud Backup. It's a backup you can restore, not live sync between devices. If your account already has a backup from another device, the app asks which history to keep before this iPhone backs up; histories are never combined.
 
 **What a backup contains:**
 - finished workouts, routines, programs, gym setups and the exercises you created or changed;
@@ -132,7 +132,7 @@ These services return nutrition information. No account details are sent with th
 There are no analytics tools, advertising tools or third-party trackers in the app.
 
 ## 7. How we use data
-We use data only to run the app's features: your profile, shared workouts, friends, challenges, notifications and, if you turn it on, Cloud Backup. We also use it to respond to feedback and to fix problems. We don't sell or rent personal data, and we don't use it for advertising.
+We use data only to run the app's features: your profile, shared workouts, friends, challenges, notifications and Cloud Backup, unless you turn it off. We also use it to respond to feedback and to fix problems. We don't sell or rent personal data, and we don't use it for advertising.
 
 ## 8. Service providers
 We rely on these providers, each under its own terms:
